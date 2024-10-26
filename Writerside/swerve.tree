@@ -7,8 +7,8 @@
                  start-page="Home.md">
 
     <toc-element topic="Home.md"/>
-    <toc-element topic="Constants.md"/>
     <toc-element topic="Overview.topic"/>
+    <toc-element topic="Constants.md"/>
     <toc-element topic="Vision.md"/>
     <toc-element topic="Tuning.md"/>
     <toc-element topic="Subsystem.md"/>
