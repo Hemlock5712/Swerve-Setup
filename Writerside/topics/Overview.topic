@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="PathPlanner GUI" id="Overview">
+
+    <section-starting-page>
+        <title>Overview</title>
+        <description>
+            Bellow are the following steps in order to get your swerve drive setup and running
+        </description>
+
+        <spotlight>
+            <a href="Constants.md" type="library" summary="Understanding values for your specific robot">Constant Values</a>
+            <a href="Vision.md" type="development"  summary="Exploring and understanding vision">Vision Setup</a>
+        </spotlight>
+
+        <primary>
+            <title>Other Things</title>
+            <a href="Tuning.md" type="tools" summary="Learning how to tune constants">Tuning Constants</a>
+            <a href="Subsystem.md" type="container" summary="Shows how to setup a new Subsystem with logging">Subsystem</a>
+            <a href="Dashboards.md" type="cross-platform" summary="Show how to use prebuilt Dashboards">Dashboards
+                grid editor</a>
+        </primary>
+
+        <secondary>
+            <title>Other Pages</title>
+            <a href="GameSpecific.md" type="experiment" summary="Cover Game Specific Examples (experimental)">Game Specific</a>
+        </secondary>
+
+    </section-starting-page>
+
+</topic>

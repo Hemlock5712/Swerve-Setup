@@ -10,8 +10,8 @@ permissions:
   pages: write
 
 env:
-  INSTANCE: 'Writerside/cssg'
-  ARTIFACT: 'webHelpCSSG2-all.zip'
+  INSTANCE: 'Writerside/swerve'
+  ARTIFACT: 'webHelpSWERVE2-all.zip'
   DOCKER_VERSION: '241.18775'
 
 jobs:
