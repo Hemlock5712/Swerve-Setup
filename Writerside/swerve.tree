@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="swerve"
+                 name="Swerve Setup Guide"
+                 start-page="Home.md">
+
+    <toc-element topic="Home.md"/>
+    <toc-element topic="Constants.md"/>
+    <toc-element topic="Overview.topic"/>
+    <toc-element topic="Vision.md"/>
+    <toc-element topic="Tuning.md"/>
+    <toc-element topic="Subsystem.md"/>
+    <toc-element topic="Dashboards.md"/>
+    <toc-element topic="GameSpecific.md"/>
+</instance-profile>
