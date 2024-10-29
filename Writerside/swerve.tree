@@ -8,10 +8,13 @@
 
     <toc-element topic="Home.md"/>
     <toc-element topic="Overview.topic"/>
-    <toc-element topic="Constants.md"/>
+    <toc-element topic="Constants.md">
+        <toc-element topic="Swerve_Constants.md"/>
+        <toc-element topic="Tuning.md"/>
+    </toc-element>
     <toc-element topic="Vision.md"/>
-    <toc-element topic="Tuning.md"/>
-    <toc-element topic="Subsystem.md"/>
+    <toc-element topic="Subsystems.md"/>
     <toc-element topic="Dashboards.md"/>
     <toc-element topic="GameSpecific.md"/>
+    <toc-element topic="Commands.md"/>
 </instance-profile>

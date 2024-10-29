@@ -18,14 +18,14 @@
 
         <primary>
             <title>Other Things</title>
-            <a href="Tuning.md" type="tools" summary="Learning how to tune constants">Tuning Constants</a>
-            <a href="Subsystem.md" type="container" summary="Shows how to setup a new Subsystem with logging">Subsystem</a>
-            <a href="Dashboards.md" type="cross-platform" summary="Show how to use prebuilt Dashboards">Dashboards
-                grid editor</a>
+            <a href="Subsystems.md" type="container" summary="Shows how to setup a new Subsystem with logging"/>
+            <a href="Commands.md" type="branch" summary="Shows different way to setup Commands"/>
         </primary>
 
         <secondary>
             <title>Other Pages</title>
+            <a href="Dashboards.md" type="cross-platform" summary="Show how to use prebuilt Dashboards">Dashboards
+                grid editor</a>
             <a href="GameSpecific.md" type="experiment" summary="Cover Game Specific Examples (experimental)"/>
         </secondary>
 
