@@ -12,12 +12,12 @@ There are three main ways we recommend setting up a subsystem.
     </tab>
     <tab id="standard" title="Standard">
         This is a standard subsystem setup this includes full logging with simulation.
-        <br/>/br>
+        <br/>
         <code-block lang="java" src="Standard_Subsystem.java"/>
     </tab>
     <tab id="advantage" title="AdvantageKit">
         If in need of full replay ability, simulation, logging, or need to be able to switch hardware types on a mechanisms we recommend using AdvantageKit.
-        <br/> Link to example AdvantageKit flywheel implementation can be found <a href="https://github.com/Mechanical-Advantage/AdvantageKit/tree/main/example_projects/advanced_swerve_drive/src/main/java/frc/robot/subsystems/flywheel">here</a>
+        Link to example AdvantageKit flywheel implementation can be found <a href="https://github.com/Mechanical-Advantage/AdvantageKit/tree/main/example_projects/advanced_swerve_drive/src/main/java/frc/robot/subsystems/flywheel">here</a>
     </tab>
 </tabs>
 
