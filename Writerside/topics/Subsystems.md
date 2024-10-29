@@ -1,7 +1,6 @@
-# Subsystem Setup
+# Subsystems
 
-This will show how to set up a new subsystem.
-
+Shows options on how to set up a new subsystem. More information on subsystems can be found [here](https://docs.wpilib.org/en/stable/docs/software/commandbased/subsystems.html)
 
 There are three main ways we recommend setting up a subsystem.
 
@@ -9,12 +8,12 @@ There are three main ways we recommend setting up a subsystem.
     <tab id="simple" title="Simple">
         This is a simple subsystem setup this includes full logging with no simulation.
         <br/>
-        <code-block lang="java" src="Simple.java"/>
+        <code-block lang="java" src="Simple_Subsystem.java"/>
     </tab>
     <tab id="standard" title="Standard">
         This is a standard subsystem setup this includes full logging with simulation.
         <br/>/br>
-        <code-block lang="java" src="Standard.java"/>
+        <code-block lang="java" src="Standard_Subsystem.java"/>
     </tab>
     <tab id="advantage" title="AdvantageKit">
         If in need of full replay ability, simulation, logging, or need to be able to switch hardware types on a mechanisms we recommend using AdvantageKit.

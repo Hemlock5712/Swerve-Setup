@@ -50,6 +50,7 @@ public class Arm extends SubsystemBase {
     armEncoder.getSimState().setVelocity(velocity_rps / kGearRatio);
   }
 
+  /** This will most likely be replaced with PID */
   public void setSpeed(double speed) {
     armMotor.set(speed);
   }

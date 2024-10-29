@@ -20,6 +20,7 @@ public class Arm extends SubsystemBase {
   @Override
   public void periodic() {}
 
+  /** This will most likely be replaced with PID */
   public void setSpeed(double speed) {
     armMotor.set(speed);
   }

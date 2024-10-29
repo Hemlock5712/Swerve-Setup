@@ -13,20 +13,19 @@
 
         <spotlight>
             <a href="Constants.md" type="library" summary="Understanding values for your specific robot">Constant Values</a>
-            <a href="Vision.md" type="development"  summary="Exploring and understanding vision">Vision Setup</a>
+            <a href="Code_Setup.md" type="branch" summary="Setting up and understanding your code"/>
         </spotlight>
 
         <primary>
             <title>Other Things</title>
-            <a href="Subsystems.md" type="container" summary="Shows how to setup a new Subsystem with logging"/>
-            <a href="Commands.md" type="branch" summary="Shows different way to setup Commands"/>
+            <a href="Vision.md" type="idea"  summary="Exploring and understanding vision">Vision Setup</a>
+            <a href="Dashboards.md" type="cross-platform" summary="Show how to use prebuilt Dashboards">Dashboards
+                grid editor</a>
         </primary>
 
         <secondary>
-            <title>Other Pages</title>
-            <a href="Dashboards.md" type="cross-platform" summary="Show how to use prebuilt Dashboards">Dashboards
-                grid editor</a>
-            <a href="GameSpecific.md" type="experiment" summary="Cover Game Specific Examples (experimental)"/>
+            <title>The Good Stuff</title>
+            <a href="Game_Specific.md" type="experiment" summary="Cover Game Specific Examples"/>
         </secondary>
 
     </section-starting-page>
