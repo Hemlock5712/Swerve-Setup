@@ -24,12 +24,17 @@ public class Flywheel extends StateMachine<Flywheel.State> {
 
   TalonFXConfiguration config = new TalonFXConfiguration();
 
-  private static final AngularVelocity AMP_SHOT = RotationsPerSecond.of(20.0);
-  private static final AngularVelocity TRAP_SHOT = RotationsPerSecond.of(3.6);
-  private static final AngularVelocity SUBWOOFER_SHOT = RotationsPerSecond.of(10.0);
+  private static final AngularVelocity AMP_SHOT =
+      RotationsPerSecond.of(20.0);
+  private static final AngularVelocity TRAP_SHOT =
+      RotationsPerSecond.of(3.6);
+  private static final AngularVelocity SUBWOOFER_SHOT =
+      RotationsPerSecond.of(10.0);
 
-  private static final AngularVelocity AMP_TOLERANCE = RotationsPerSecond.of(5.0);
-  private static final AngularVelocity TRAP_TOLERANCE = RotationsPerSecond.of(1.0);
+  private static final AngularVelocity AMP_TOLERANCE =
+      RotationsPerSecond.of(5.0);
+  private static final AngularVelocity TRAP_TOLERANCE =
+      RotationsPerSecond.of(1.0);
   private static final AngularVelocity SUBWOOFER_TOLERANCE =
       RotationsPerSecond.of(4.0);
   private static final AngularVelocity SPEAKER_TOLERANCE =
@@ -49,18 +54,17 @@ public class Flywheel extends StateMachine<Flywheel.State> {
     config.CurrentLimits.SupplyCurrentLimit = 40.0;
     config.CurrentLimits.SupplyCurrentLimitEnable = true;
     config.MotorOutput.NeutralMode = NeutralModeValue.Coast;
-    config.Slot0.kS = 0.366; // Add 0.31 V output to overcome static friction
-    config.Slot0.kV = 8.0 / 54.154; // 7.25 / 50.0
-    config.Slot0.kA = 0.0; // An acceleration of 1 rps/s requires 0.01 V output
-    config.Slot0.kP = 0.9; // An error of 1 rps results in 0.11 V output
-    config.Slot0.kI = 0.0; // no output for integrated error
-    config.Slot0.kD = 0.001; // no output for error derivative
+    config.Slot0.kS = 0.366; // Add 0.366 V output to overcome static friction
+    config.Slot0.kV = 8.0 / 54.154; // When applying 8V spins at 54.154
+    config.Slot0.kA = 0.0;
+    config.Slot0.kP = 0.9;
+    config.Slot0.kI = 0.0;
+    config.Slot0.kD = 0.001;
 
     // set Motion Magic Velocity settings
     var motionMagicConfigs = config.MotionMagic;
-    // Some value that is achievable
-    motionMagicConfigs.MotionMagicAcceleration = 50.0; // Target accel of 400 rps/s
-    motionMagicConfigs.MotionMagicJerk = 500; // Target jerk of 4000 rps/s/s
+    motionMagicConfigs.MotionMagicAcceleration = 50.0;
+    motionMagicConfigs.MotionMagicJerk = 500;
 
     boolean statusOK = flywheel.getConfigurator().apply(config, 0.1) ==
         StatusCode.OK;

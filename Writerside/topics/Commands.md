@@ -28,14 +28,14 @@ Let's go ahead and break down the complex command.
 
 This code allows us to extend the CCShambots StateMachine class and add different states. States are gotten from our enum `Flywheel.State`
 
-<code-block lang="java" src="Complex_Command.java" include-lines="40-46"/>
+<code-block lang="java" src="Complex_Command.java" include-lines="45-51"/>
 
 In this block of code, we are setting our flywheel to an undetermined state, registering all states the flywheel can be in,
 and also the state-to-state transitions that are allowed
 
 Now let's dive into `registerStateCommands()`.
 
-<code-block lang="java" src="Complex_Command.java" include-lines="77-82"/>
+<code-block lang="java" src="Complex_Command.java" include-lines="81-85"/>
 
 This code defines what we want to happen when we tell the Flywheel to go into AMP mode.
 
@@ -44,7 +44,7 @@ In this case, we want to set the flywheel speed and trigger a flag when our spee
 By defining all possible states of the robot, we give it a clear purpose and direction, enhancing its functionality.
 This will allow you to add safety and more automation to your code.
 
-<code-block lang="java" src="Complex_Command.java" include-lines="105-111"/>
+<code-block lang="java" src="Complex_Command.java" include-lines="108-116"/>
 
 This allows our flywheel to transition between any state without restrictions. This will change on your applications.
 

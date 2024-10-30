@@ -6,9 +6,11 @@ public class Arm extends SubsystemBase {
   /** Creates a new Arm. */
   public Arm() {
     armConfig.Feedback.FeedbackRemoteSensorID = armEncoder.getDeviceID();
-    armConfig.Feedback.FeedbackSensorSource = FeedbackSensorSourceValue.RemoteCANcoder;
+    armConfig.Feedback.FeedbackSensorSource =
+        FeedbackSensorSourceValue.RemoteCANcoder;
     armConfig.Feedback.SensorToMechanismRatio = 1;
     armMotor.getConfigurator().apply(armConfig, 1);
+
     BaseStatusSignal.setUpdateFrequencyForAll(
         50,
         armMotor.getVelocity(),
