@@ -1,15 +1,10 @@
 # Swerve Constants
 
-In this section, we will cover swerve constants and their meaning.
+This section will cover swerve constants you need to tune for your specific robot.
 
 <code-block lang="java" src="TunerConstants.java" include-lines="6-13"/>
 
 These are the PID and FF values for your swerve drive. These can be tuned by running SysID.
-
-<code-block lang="java" src="TunerConstants.java" include-lines="15-20"/>
-
-You will want to keep these values as is.
-Changing these to TorqueCurrent makes you control the acceleration of the motors, which results in the robot being un-drivable.
 
 <code-block lang="java" src="TunerConstants.java" include-lines="24"/>
 
