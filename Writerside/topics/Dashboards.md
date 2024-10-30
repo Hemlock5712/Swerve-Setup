@@ -1,3 +1,3 @@
 # Dashboards
 
-This will cover Advantage Scope and Elastic prebuilt dashboards
+This will cover Advantage Scope and Elastic pre-built dashboards.

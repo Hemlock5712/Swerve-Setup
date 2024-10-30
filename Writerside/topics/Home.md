@@ -1,6 +1,6 @@
 # Home
 
-Welcome to team 5712 2025 swerve template guide!!!
+Welcome to Team 5712 2025 swerve template guide!!!
 
 ![](Home Header.png)
 

@@ -1,53 +1,59 @@
 # Commands
 
-Shows options on how to set up a new commands. More information on commands can be found [here](https://docs.wpilib.org/en/stable/docs/software/commandbased/what-is-command-based.html)
+Shows options on how to set up new commands. More information on commands can be found [here](https://docs.wpilib.org/en/stable/docs/software/commandbased/what-is-command-based.html)
 
-There are two main ways we recommend setting up a commands.
+There are two main ways we recommend setting up commands.
 
 <tabs>
     <tab id="standard" title="Standard">
-        This is a standard command. Refer to WPILib for more examples
+        This is a standard command. Refer to WPILib for more examples.
         <br/>
         <code-block lang="java" src="Standard_Command.java"/>
     </tab>
-    <tab id="complex" title="Complex">
-        With more complex systems you need a way to better define states for this we implement a state system designed by CCShambots 
+    <tab id="complex" title="Complex" >
+        With more complex systems, you need a way to better define states. For this, we implement a state system designed by CCShambots.
+        <note>
+        This example code is extended; however, this is a complete subsystem with commands added.
+        </note>
         <br/>
-        <code-block lang="java" src="Complex_Command.java"/>
+        <code-block lang="java" collapsible="true" collapsed-title="flywheel.java" src="Complex_Command.java"/>
     </tab>
 </tabs>
 
-Let's go ahead and break down the Complex command.
+## Complex Example Breakdown {collapsible="true"}
 
-<code-block lang="java" src="Complex_Command.java" include-lines="1"/>
+Let's go ahead and break down the complex command.
 
-This code allows us to extend CCShambots StateMachine class and add different states to it. States are gotten from our enum `Flywheel.State`
+<code-block lang="java" src="Complex_Command.java" include-lines="19"/>
 
-<code-block lang="java" src="Complex_Command.java" include-lines="25-31"/>
+This code allows us to extend the CCShambots StateMachine class and add different states. States are gotten from our enum `Flywheel.State`
 
-In this block of code we are setting our flywheel to an undetermined state, registering all states the flywheel can be in,
-and also the state to state transitions that are allowed
+<code-block lang="java" src="Complex_Command.java" include-lines="40-46"/>
+
+In this block of code, we are setting our flywheel to an undetermined state, registering all states the flywheel can be in,
+and also the state-to-state transitions that are allowed
 
 Now let's dive into `registerStateCommands()`.
 
-<code-block lang="java" src="Complex_Command.java" include-lines="60-64"/>
+<code-block lang="java" src="Complex_Command.java" include-lines="77-82"/>
 
-This code is defining what we want to happen when we tell the Flywheel to go into AMP mode.
+This code defines what we want to happen when we tell the Flywheel to go into AMP mode.
 
-In this case we want to set the flywheel speed along with checking if our speed is within tolerance to shoot.
+In this case, we want to set the flywheel speed and trigger a flag when our speed is within tolerance to alert another part of our code to shoot.
 
-After defining all mode that the robot can be in it is time to tell the robot what states you can go to when in a specific state. 
-This will allow you to add safety and potentially add more automation into your code.
+By defining all possible states of the robot, we give it a clear purpose and direction, enhancing its functionality.
+This will allow you to add safety and more automation to your code.
 
-<code-block lang="java" src="Complex_Command.java" include-lines="82-88"/>
+<code-block lang="java" src="Complex_Command.java" include-lines="105-111"/>
 
-This allows for our flywheel to be able to transition between any states without restrictions. This will change on your applications
+This allows our flywheel to transition between any state without restrictions. This will change on your applications.
 
-After that is all code that is fairly standard in other commands. 
+After that, all the code is pretty standard in other commands.
 
-Now you then just need to call from `RobotContainer.java` to set state. For very complicated robots you may need states in your `RobotContainer` 
+Finally, you need to call from `RobotContainer.java` to set the state. You may need states in your `RobotContainer.java` for very complicated robots.
 
-<compare type="top-bottom" first-title="Simple State (bind to button)" second-title="Complex State">
+<br/>
+<compare type="top-bottom" first-title="Simple State" second-title="Complex State">
     <code-block lang="Java">
         joystick.a().whileTrue(
             flywheel.transitionCommand(Flywheel.State.AMP)

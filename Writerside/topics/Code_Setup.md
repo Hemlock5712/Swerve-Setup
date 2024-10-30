@@ -1,3 +1,3 @@
 # Code Setup
 
-In this next section we will be covering potential ways to set up your code.
+This next section will cover the main parts of programming Subsystems and Commands.
