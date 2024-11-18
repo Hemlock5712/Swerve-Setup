@@ -12,7 +12,7 @@
         </description>
 
         <spotlight>
-            <a href="Constants.md" type="library" summary="Understanding values for your specific robot">Constant Values</a>
+            <a href="Swerve_Constants.md" type="library" summary="Understanding values for your specific robot">Constant Values</a>
             <a href="Code_Setup.md" type="branch" summary="Setting up and understanding your code"/>
         </spotlight>
 
