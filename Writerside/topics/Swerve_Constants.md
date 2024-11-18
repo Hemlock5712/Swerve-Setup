@@ -4,7 +4,7 @@ For setting up your robot post steps can be found [here](https://docs.advantagek
 
 This section is focused on pointing out swerve constants to tune.
 
-## TunerConstants.java {collapsible="true"}
+## TunerConstants {collapsible="true"}
 
 ### PID and FeedForward
 
@@ -34,7 +34,7 @@ This is the most important value as this also directly affect your acceleration 
 <code-block lang="java" src="TunerConstants.java" include-lines="57"/>
 
 
-## Drive.java (PathPlanner) {collapsible="true"}
+## Drive (PathPlanner) {collapsible="true"}
 
 These are the following values you will need to tune.
 
