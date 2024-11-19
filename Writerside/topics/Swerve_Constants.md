@@ -2,8 +2,7 @@
 
 For setting up your robot post steps can be found [here](https://docs.advantagekit.org/example-projects/talonfx-swerve-template/) 
 
-An AdvantageScope layout that follows steps above can be found in `dashboard` folder.
-
+An AdvantageScope layout that follows steps above can be found in `dashboard` folder. For configuring dashboard see the [dashboard page](Dashboards.md)
 This section is focused on pointing out swerve constants to tune.
 
 ## TunerConstants {collapsible="true"}

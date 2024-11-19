@@ -31,6 +31,7 @@ This should ideally make the formula more robust for a new game instead of havin
 </li>
 </list>
 
+<warning>As of right now replay is not fully working as @AutoLog for records is not supported. It will be in Beta</warning>
 
 Code methods can be found inside `VisionUtil.java`. 
 This current setup allows us to quickly change existing or add new custom methods. 
