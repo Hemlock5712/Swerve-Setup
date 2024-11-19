@@ -6,7 +6,7 @@ An AdvantageScope layout that follows steps above can be found in `dashboard` fo
 
 This section is focused on pointing out swerve constants to tune.
 
-## TunerConstants.java {collapsible="true"}
+## TunerConstants {collapsible="true"}
 
 ### PID and FeedForward
 
@@ -49,7 +49,7 @@ Max speed your robot can go at 12 Volts in meters per second.
 <code-block lang="java" src="TunerConstants.java" include-lines="57"/>
 
 
-## Drive.java (PathPlanner) {collapsible="true"}
+## Drive (PathPlanner) {collapsible="true"}
 
 <warning>Once you find these values make sure you also set them inside PathPlanner GUI</warning>
 
