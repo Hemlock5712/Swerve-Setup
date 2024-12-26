@@ -7,6 +7,7 @@
                  start-page="Home.md">
 
     <toc-element topic="Home.md"/>
+    <toc-element topic="TalonFX-Swerve-Tuning.md"/>
     <toc-element topic="Overview.topic"/>
     <toc-element topic="Swerve_Constants.md"/>
     <toc-element topic="Code_Setup.md">
@@ -16,4 +17,5 @@
     <toc-element topic="Vision.md"/>
     <toc-element topic="Dashboards.md"/>
     <toc-element topic="Game_Specific.md"/>
+    <toc-element topic="TalonFX-Swerve-Setup.md"/>
 </instance-profile>

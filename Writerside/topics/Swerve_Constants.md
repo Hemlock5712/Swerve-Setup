@@ -48,27 +48,6 @@ Max speed your robot can go at 12 Volts in meters per second.
 <code-block lang="java" src="TunerConstants.java" include-lines="57"/>
 
 
-## Drive (PathPlanner) {collapsible="true"}
-
-<warning>Once you find these values make sure you also set them inside PathPlanner GUI</warning>
-
-These are the remaining values that need to be tuned for PathPlanner.
-
-<code-block lang="java" src="Drive.java" include-lines="75-77"/>
-
-* `ROBOT_MASS_KG` - Should be weight of robot with bumpers and battery.
-* `ROBOT_MOI` - Can be found using any method found [here](https://sleipnirgroup.github.io/Choreo/usage/estimating-moi/#system-identification-methods). It is recommended to use `kA` method.
-  * To find `kA` values you will need to run two SysID characterizations. You will need to change the `runCharacterization` inside `Modules.java`
-<br/>
-<compare type="top-bottom" first-title="kA Linear" second-title="kA Angular">
-<code-block lang="java" src="Module.java" include-lines="1-5"/>
-<code-block lang="java" src="Module.java" include-lines="7-11"/>
-</compare>
-* `WHEEL_COF` - This can be found several ways. Approximation for common wheels
-  * Black Nitrile - 1.5
-  * Colson - 0.9 
-  * Grip Lock - 1.9
-
 
 
 
