@@ -1,6 +1,6 @@
 # TalonFX Swerve Setup
 
-<note>The swerve project folder includes a predefined AdvantageScope layout with tabs for each setup and tuning step described below. To open it, click <code>File</code> > <code>Import Layout...</code> in the tab bar of AdvantageScope and select the file <code>AdvantageScope Swerve Calibration.json</code> in the swerve project folder.</note>
+<warning>CTRE only permits the swerve project generator to be used on swerve robots with exclusively CTRE hardware (eight TalonFX controllers, four CANcoders, and a Pigeon 2).</warning>
 <list type="decimal" start="1">
     <li>Download and install everything linked below
         <list type="alpha-lower">
@@ -24,3 +24,6 @@
 </list>
     </li>
 </list>
+
+### TalonFX Swerve Tuning
+Next, follow the instructions on tuning your swerve found <a href="TalonFX-Swerve-Tuning.md">here</a>.

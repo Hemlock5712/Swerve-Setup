@@ -83,7 +83,7 @@ The project includes a simple feedforward routine that can be used to quickly me
 
 <p>The project includes a built-in configuration for <a href="https://docs.advantagescope.org/more-features/export#options" ><format color="#fbc30c"> PathPlanner</format></a>, located in the constructor of <code>Drive.java</code>. You may wish to manually adjust the following values:</p>
 <list>
-<li>Robot mass, MOI, and wheel coefficient as configured at the top of <code>Drive.java</code></li>
+<li>Robot mass, MOI, and wheel coefficient as configured in <code>Constants.java</code></li>
 <li>Drive PID constants as configured in <code>AutoBuilder</code>.</li>
 <li>Turn PID constants as configured in <code>AutoBuilder</code>.
 </li>
