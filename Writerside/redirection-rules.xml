@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="2d89b761">
+        <description>Created after removal of "TalonFX Swerve Setup" from Swerve Setup Guide</description>
+        <accepts>Swerve-Setup.html</accepts>
+    </rule>
+    <rule id="5f64bf9d">
+        <description>Created after removal of "Swerve Constants" from Swerve Setup Guide</description>
+        <accepts>Swerve_Constants.html</accepts>
+    </rule>
+    <rule id="3e44baac">
+        <description>Created after removal of "Swerve" from Swerve Setup Guide</description>
+        <accepts>Swerve.html</accepts>
+    </rule>
+    <rule id="57ea8020">
+        <description>Created after removal of "Code Setup" from Swerve Setup Guide</description>
+        <accepts>Code_Setup.html</accepts>
+    </rule>
+</rules>
