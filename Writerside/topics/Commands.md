@@ -1,5 +1,8 @@
 # Commands
 
+<p>Here you will learn about commands.</p>
+
+
 Shows options on how to set up new commands. More information on commands can be found [here](https://docs.wpilib.org/en/stable/docs/software/commandbased/what-is-command-based.html)
 
 There are two main ways we recommend setting up commands.

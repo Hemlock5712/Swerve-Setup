@@ -1,5 +1,7 @@
 # TalonFX Swerve Setup
 
+<p>Here you will learn how to set up your CTRE Swerve Template.</p>
+
 <warning>CTRE only permits the swerve project generator to be used on swerve robots with exclusively CTRE hardware (eight TalonFX controllers, four CANcoders, and a Pigeon 2).</warning>
 <list type="decimal" start="1">
     <li>Download and install everything linked below

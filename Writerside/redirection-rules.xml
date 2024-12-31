@@ -30,4 +30,8 @@
         <description>Created after removal of "Subsystem Overview" from Swerve Setup Guide</description>
         <accepts>Subsystem-Overview.html</accepts>
     </rule>
+    <rule id="f58f504">
+        <description>Created after removal of "Subsystem Overview" from Swerve Setup Guide</description>
+        <accepts>Subsystem-Overview.html</accepts>
+    </rule>
 </rules>

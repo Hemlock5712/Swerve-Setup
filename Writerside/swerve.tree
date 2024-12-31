@@ -7,11 +7,11 @@
                  start-page="Home.md">
 
     <toc-element topic="Home.md"/>
-    <toc-element topic="Swerve-Overview.topic">
+    <toc-element topic="Swerve-Overview.md">
         <toc-element topic="TalonFX-Swerve-Setup.md"/>
         <toc-element topic="TalonFX-Swerve-Tuning.md"/>
     </toc-element>
-    <toc-element topic="Subsystem-Overview.topic">
+    <toc-element topic="Subsystem-Overview.md">
         <toc-element topic="Subsystems.md"/>
         <toc-element topic="Commands.md"/>
     </toc-element>
