@@ -22,4 +22,12 @@
         <description>Created after removal of "Code Setup" from Swerve Setup Guide</description>
         <accepts>Code_Setup.html</accepts>
     </rule>
+    <rule id="7bae302d">
+        <description>Created after removal of "Subsystem Overview" from Swerve Setup Guide</description>
+        <accepts>Subsystem-Overview.html</accepts>
+    </rule>
+    <rule id="64f871da">
+        <description>Created after removal of "Subsystem Overview" from Swerve Setup Guide</description>
+        <accepts>Subsystem-Overview.html</accepts>
+    </rule>
 </rules>

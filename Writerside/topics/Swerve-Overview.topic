@@ -3,10 +3,10 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Swerve Overview" id="Overview">
+       title="Swerve Overview" id="Swerve-Overview">
 
     <section-starting-page>
-        <title>Overview</title>
+        <title>Swerve Overview</title>
         <description>
             Below are the following steps in order to get your swerve drive setup and running.
         </description>
@@ -14,7 +14,6 @@
         <spotlight>
             <a href="TalonFX-Swerve-Setup.md" type="library" summary="Installing Tools/Template, Setting Up TunerConstants">Setup</a>
             <a href="TalonFX-Swerve-Tuning.md" type="library" summary="Characterization, Swerve PID Tuning, Speed/Slip Measurement, PathPlanner Config">Swerve Tuning</a>
-            <a href="Code_Setup.md" type="branch" summary="Setting up and understanding your code"/>
         </spotlight>
     </section-starting-page>
 </topic>
