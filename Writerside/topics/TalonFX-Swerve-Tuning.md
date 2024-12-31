@@ -1,6 +1,6 @@
 # TalonFX Swerve Tuning
 
-<p>Below you will find many tutorials on how to tune aspects of the swerve template.</p>
+<p>Here you will find many tutorials on how to tune aspects of the swerve template.</p>
 
 ## Torque-Current Control
 <p>The project defaults to voltage control for both the drive and turn motors. Phoenix Pro subscribers can optionally switch to torque-current control, as described in the <a href="https://pro.docs.ctr-electronics.com/en/latest/docs/api-reference/device-specific/talonfx/talonfx-control-intro.html#torquecurrentfoc" ><format color="#fbc30c"> Phoenix documentation</format></a>. This can be configured by changing the values of <code>kSteerClosedLoopOutput</code> and/or <code>kDriveClosedLoopOutput</code> in <code>TunerConstants.java</code> to <code>ClosedLoopOutputType.TorqueCurrentFOC</code>.</p>
